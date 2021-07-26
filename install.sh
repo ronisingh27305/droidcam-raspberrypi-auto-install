@@ -17,9 +17,9 @@ sudo apt install libusbmuxd-dev &&
 sudo apt install gtk+-3.0 &&
 sudo apt install libappindicator3-dev &&
 cd /home/pi &&
-cd droidcam-raspberrypi-auto-install &&
-make droidcam-cli &&
-make droidcam &&
+cd droidcam-raspberrypi-auto-install/droidcam &&
+sudo make droidcam-cli &&
+sudo make droidcam &&
 sudo ./install-client &&
 sudo ./install-video &&
 sudo ./install-sound &&
