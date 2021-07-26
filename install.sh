@@ -22,6 +22,7 @@ make droidcam-cli &&
 make droidcam &&
 sudo ./install-client &&
 sudo ./install-video &&
+sudo ./install-sound &&
 echo The Installation has completed..use "sudo ./droidcam" to launch droidcam &&
 exit
 
