@@ -15,7 +15,7 @@ sudo apt install libswscale-dev &&
 sudo apt install libasound2-dev &&
 sudo apt install libspeex-dev &&
 sudo apt install libusbmuxd-dev &&
-sudo apt install gtk+-3.0 &&
+sudo apt install gtk+-3.0 sudo apt-get install libgtk-3-dev &&
 sudo apt install libappindicator3-dev &&
 cd /home/pi &&
 cd droidcam-raspberrypi-auto-install &&
