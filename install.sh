@@ -3,6 +3,7 @@ sudo cp -r libjpeg-turbo-2.1.0 /tmp &&
 git clone https://github.com/dev47apps/droidcam/ &&
 cd /tmp &&
 cd libjpeg-turbo-2.1.0 &&
+sudo apt install cmake
 cmake -G "Unix Makefiles" &&
 make &&
 sudo make install &&
